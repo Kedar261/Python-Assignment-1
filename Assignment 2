@@ -1,0 +1,94 @@
+1.What are the two values of the Boolean data type? How do you write them?
+True
+False
+2. What are the three different types of Boolean operators?
+AND
+OR
+NOT
+
+3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+a , b 
+AND : True if both are true otherwise False eg. a and b 
+OR  : True for at least one case is True eg. a or b
+NOT : True only if incorrect or False eg.not b
+4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)
+False
+not (5 > 4)
+False
+(5 > 4) or (3 == 5)
+True
+not ((5 > 4) or (3 == 5))
+False
+(True and True) and (True == False)
+False
+(not False) or (not True)
+True
+5. What are the six comparison operators?
+Equal to
+Not equal to
+greater than
+greater than or equal to
+less than
+less than or equal to
+
+
+6. How do you tell the difference between the equal to and assignment operators?Describe a condition and when you would use one.
+'=' is assignment operator. eg a = 10 then after giving a input I will get 10 as output.
+'==' is equal to operator eg. 3 == 5 then it will give output in true or False(boolean)
+
+
+7. Identify the three blocks in this code:
+Block1:
+spam = 0
+if spam == 10:
+print('eggs')
+
+Block2
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+
+Block3
+print('spam')
+print('spam')
+
+
+8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+spam = int(input("Enter the no.1 or 2 or anything"))
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9.If your programme is stuck in an endless loop, what keys you’ll press?
+ctrl + c
+10. How can you tell the difference between break and continue?
+continue skips current iteration & passes to next interation. 
+break will stop the loop & pass to next loop 
+
+
+11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+range(10): will print 0 to 9, will exclude last element, user can give only one argument(n) (stop) as input & will get output values starting from 0 to n-1
+range(0,10):will print 0 to 9, will exclude last element,  user can give two arguments(a,b)(Start, stop) as input & will get output values starting from a to b-1
+range(0, 10, 1):will print 0 to 9, will exclude last element, user can give three argument(a,b,c) (Start, stop, step) as input & will get values starting from a to b-1 with a step size of c
+
+
+12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+For loop
+for i in range(1,11):
+    print(i)
+    
+While loop
+i = 0
+while i < 10:
+    i +=1
+    print(i)
+    
+13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+spam.bacon()
+
+
