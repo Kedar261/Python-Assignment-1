@@ -6,7 +6,7 @@ both the cases code will run but output will be given action only after calling 
 def
 4. What is the difference between a function and a function call?
 function can give only result but after calling function it will perform the actions mentioned in the function
-Function can be defined but 
+Function can be defined but it will execute at that instnace only. Calling again will perform a specific task.
 5. How many global scopes are there in a Python program? How many local scopes?
 There is only one global scope. There can be multiple local scopes.
 6. What happens to variables in a local scope when the function call returns?
@@ -14,10 +14,18 @@ The local variable will destroy
 7. What is the concept of a return value? Is it possible to have a return value in an expression?
 function returns the value when it is completed.
 8. If a function does not have a return statement, what is the return value of a call to that function?
+called function will be executed
 9. How do you make a function variable refer to the global variable?
+by using global keyword we can refer it.
 10. What is the data type of None?
+None means null. it is like a zero value.
 11. What does the sentence import areallyourpetsnamederic do?
+import statement will import module named as areallyourpetsnamederic
 12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+module will create object after initializing it
 13. What can you do to save a programme from crashing if it encounters an error?
+I will run program & it may give error which I can resolve later. But after executing it I can save the code. Can go for try /exception handling also.
 14. What is the purpose of the try clause? What is the purpose of the except clause?
+Try: it is used to check the errors. if there are no errors then code will run otherwise it will not.
+Except: It will except / ignore the code written in try statement
 
